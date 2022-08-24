@@ -10,7 +10,7 @@
           style="display: none;"
         />
 
-        
+
       </div>
       <div class="col-xl-5 p-0">
         <div class="login-card">
@@ -140,7 +140,7 @@
                         
 
 
-                        return this.$router.push('/admin')
+                        return this.$router.push('/admin/dashboard')
                           
 
 
@@ -151,7 +151,7 @@
 
                         console.log(response);
 
-                         return this.$router.push('/admin')
+                         return this.$router.push('/admin/dashboard')
 
                     });
               
