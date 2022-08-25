@@ -348,13 +348,13 @@
             <img
             style="width: 40px; height: 40px; object-fit: cover;"
               class="b-r-10"
-              :src="user_data.avatar"
+              :src="'user_data.avatar'"
               alt=""
             />
             <div class="media-body">
               <span>{{user_data.name}}</span>
               <p class="mb-0 font-roboto">
-                {{user_data.role}} <i class="middle fa fa-angle-down"></i>
+                Admin <i class="middle fa fa-angle-down"></i>
               </p>
             </div>
           </div>
@@ -548,7 +548,7 @@ export default {
     },
   },
   mounted() {
-    this.getUserData()
+
   },
 };
 </script>
