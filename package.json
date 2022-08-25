@@ -77,15 +77,12 @@
     "vuex": "^3.1.1"
   },
   "devDependencies": {
-    "@types/cssnano": "^5.1.0",
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-eslint": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "postcss": "^8.4.16",
-    "postcss-cli": "^10.0.0",
     "vue-template-compiler": "^2.6.10",
     "webpack-dev-server": "^2.9.7"
   },
