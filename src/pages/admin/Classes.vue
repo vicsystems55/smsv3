@@ -59,6 +59,42 @@
                             </td>
                           </tr>
 
+                                                    <tr>
+                            <td><input type="checkbox" name="" class="form-check" id="" checked></td>
+                            <td>
+                              <input type="text" class="form-control" :value="'JS 1'" disabled>
+                            </td>
+                            <td>
+                              <input type="text" class="form-control">
+                            </td>
+                            <td>
+                              <input type="text" class="form-control">
+                            </td>
+                            <td>
+                              <div class="form-group">
+                                <button class="btn btn-primary btn-sm"> + add</button>
+                                </div>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td><input type="checkbox" name="" class="form-check" id="" checked></td>
+                            <td>
+                              <input type="text" class="form-control" :value="'JS 2'" disabled>
+                            </td>
+                            <td>
+                              <input type="text" class="form-control">
+                            </td>
+                            <td>
+                              <input type="text" class="form-control">
+                            </td>
+                            <td>
+                              <div class="form-group">
+                                <button class="btn btn-primary btn-sm"> + add</button>
+                                </div>
+                            </td>
+                          </tr>
+
 
                         </tbody>
                       </table>

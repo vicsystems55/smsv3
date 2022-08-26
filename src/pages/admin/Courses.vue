@@ -5,12 +5,74 @@
         <div class="container-fluid">
             <div class="row">
               <div class="col-md-12">
-                <div class="card">
+                                <div class="card">
                     <div class="card-header">
-                      <h5>Sample Card</h5><span>lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+                      <h5>Update Courses</h5><span>lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
                     </div>
                     <div class="card-body">
-                      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th>
+                              select all
+                            </th>
+                            <th>Course Name</th>
+                            <th>Description</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><input type="checkbox" name="" class="form-check" id="" checked></td>
+                            <td>
+                              <input type="text" class="form-control" :value="'Mathematics'" disabled>
+                            </td>
+                            
+                            <td>
+                              <input type="text" class="form-control">
+                            </td>
+                            
+                          </tr>
+
+                          <tr>
+                            <td><input type="checkbox" name="" class="form-check" id="" checked></td>
+                            <td>
+                              <input type="text" class="form-control" :value="'English'" disabled>
+                            </td>
+                            
+                            <td>
+                              <input type="text" class="form-control">
+                            </td>
+                            
+                          </tr>
+
+                          <tr>
+                            <td><input type="checkbox" name="" class="form-check" id="" checked></td>
+                            <td>
+                              <input type="text" class="form-control" :value="'Biology'" disabled>
+                            </td>
+                            
+                            <td>
+                              <input type="text" class="form-control">
+                            </td>
+                            
+                          </tr>
+
+                          <tr>
+                            <td><input type="checkbox" name="" class="form-check" id="" checked></td>
+                            <td>
+                              <input type="text" class="form-control" :value="'Chemistry'" disabled>
+                            </td>
+                            
+                            <td>
+                              <input type="text" class="form-control">
+                            </td>
+                            
+                          </tr>
+
+
+                        </tbody>
+                      </table>
                     </div>
                 </div>
               </div>               
